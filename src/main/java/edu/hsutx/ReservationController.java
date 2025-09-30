@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.HashMap;
 
 public class ReservationController {
-    private static final double DELAY_SECONDS = 5.0;  // Set this to the number of seconds to pause after updating each entry in the csv file
+    private static final double DELAY_SECONDS = 0.1;  // Set this to the number of seconds to pause after updating each entry in the csv file
     private CowboySeatTree seatTree;
     private SwingView view;
 
